@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navigatie header-----------------------------------------------------------------------*/
+
+.background{
+    background-image: url('../img/BREDA.jpg')
+}
+
+.nav-bar{
+    background-color: #4a545c;
+    opacity: 0.7;
+}
+
+.wrapper-1{
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wrapper-1, h1{
+    margin: 0px;
+}
+
+.nav-bar h2{
+    color: white;
+    padding-right: 300px;
+}
+
+.nav-bar .letter-R{
+    color: #f4a20a;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.wrapper-1 nav a:hover{
+    border: 3px solid #f4a20a;
+    color: #f4a20a;
+}
+
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.citaat h3{
+    text-align: center;
+    font-weight: 100;
+    background-color: #4a545c ;
+    color: white;
+}
+
+.citaat{
+    opacity: 0.9;
+    padding: 150px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*main serice en testimonials-----------------------------------------------------------------*/
+
+.vakken h1, 
+.talen h1, 
+.docenten h1{
+    background-color: #f4a20a;
+    color: white;
+    font-weight: 300;
+}
+
+
+.citaat h3{
+    background-color: #4a545c;
+    padding: 5px ;
+}
+
+.vakken, 
+.vakken-2, 
+.talen, 
+.docenten{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f4a20a;
+}
+
+.vakken, 
+.vakken-2, 
+.talen, 
+.docenten{
+    padding: 0 100px;
+    padding-bottom: 50px;
+}
+
+.vakken h1, 
+.vakken-2 h1, 
+.talen h1, 
+.docenten h1{
+    padding: 50px 100px;
+}
+
+.container-1{
+    padding: 0px 100px;
+    margin: 0;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.testimonials-h1{
+    padding: 50px 100px;
+    padding-right: 50px;
+}
+
+.testimonials-h1 h1,
+.container-1 h2{
+    font-weight: 350;
+}
+
+.testimonials-h1{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 75px;
+}
+
+.testimonials-h1 img{
+    width: 50px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.rooster-flex {
+    text-align: center;
+}
+
+.rooster-h1 {
+    margin-bottom: 20px;
+    color: #FFA500; /* Oranje tekstkleur */
+}
+
+.container-1 img {
+    width: 600px;
+    height: 400px;
+    border: 2px solid #000; /* Zwarte rand */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vakken-1{
+    border: #000 solid 3px;
+    border-radius: 8px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/*footer ---------------------------------------------------------------------------------------------*/
+
+.nav-footer{
+    padding: 75px 100px;
+    background-color: #4a545c;
+}
+.nav-footer a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+}
